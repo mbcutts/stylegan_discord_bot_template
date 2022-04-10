@@ -74,7 +74,7 @@ async def generate(ctx, arg):
     network_path = os.getcwd() + "./network-final.pkl" 
     
     #generating the image
-    generate_images(network_pkl = "./network-final.pkl", seeds=seed, outdir=outdir)
+    generate_images(network_pkl = network_path, seeds=seed, outdir=outdir)
     
     #get the path of your image
     image_path = f'{outdir}/seed{seed[0]:04d}.png'
