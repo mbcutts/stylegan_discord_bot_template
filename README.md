@@ -7,7 +7,7 @@ Essential requirements are Windows/Linux, CUDA Toolkit v11.0 or higher, and Pyth
 After setting these up, simply run `pip3 install -r requirements` in the project folder to get everything else running.
 
 ## Setup
-1. You'll need to save your networks PKL file into this projects directory and update the `network_path` variable on line 74 of `bot.py`. If you don't have a PKL, or don't know what a PKL file is, it is a pickle file that tells pytorch how to get your network loaded. This file should be named `network-final.pkl` in the results folder after you train your GAN. I recommend checking out the[StyleGANV2 project](https://github.com/NVlabs/stylegan2-ada) for more details on this. 
-2. You'll need to add your bot's token to the `token` variable on line 63 of `bot.py`.
+1. You'll need to save your networks PKL file into this projects directory and update the `network_path` variable of `bot.py`. If you don't have a PKL, or don't know what a PKL file is, it is a pickle file that tells pytorch how to get your network loaded. This file should be named `network-final.pkl` in the results folder after you train your GAN. I recommend checking out the[StyleGANV2 project](https://github.com/NVlabs/stylegan2-ada) for more details on this. 
+2. You'll need to add your bot's token to the `token` variable of `bot.py`.
 
 Other than that, this project runs like a charm and is a simple and easy addition to add GAN and DeepFake Techniques to your discord bot. 
