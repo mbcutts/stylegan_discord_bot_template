@@ -71,7 +71,7 @@ async def generate(ctx, arg):
     #setting up variables for network
     seed = [random.randint(1, 1000)]
     outdir = os.getcwd() + "/out"
-    network_path = os.getcwd() + "./network-final.pkl" 
+    network_path = os.getcwd() + "./network-final.pkl" #you'll probably need/want to change this line to match your model.
     
     #generating the image
     generate_images(network_pkl = network_path, seeds=seed, outdir=outdir)
