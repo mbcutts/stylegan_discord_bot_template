@@ -60,7 +60,7 @@ def generate_images(network_pkl: str, seeds: Optional[List[int]], outdir: str):
 Discord Functionality Lies Below.
 '''
 
-token = 'OTUxMjAzNjQzODA4NDIzOTM3.YikDbQ.keVWXWj2otva6ORLbf77FKK0dNw'
+token = ''
 bot = commands.Bot(command_prefix='!')
 
 @bot.command()
