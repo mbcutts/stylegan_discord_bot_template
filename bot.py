@@ -24,16 +24,6 @@ license agreement from NVIDIA CORPORATION is strictly prohibited.
 
 '''
 
-def num_range(s: str) -> List[int]:
-    '''Accept either a comma separated list of numbers 'a,b,c' or a range 'a-c' and return as a list of ints.'''
-
-    range_re = re.compile(r'^(\d+)-(\d+)$')
-    m = range_re.match(s)
-    if m:
-        return list(range(int(m.group(1)), int(m.group(2))+1))
-    vals = s.split(',')
-    return [int(x) for x in vals]
-
 def generate_images(network_pkl: str, seeds: Optional[List[int]], outdir: str):
     print('Loading networks from "%s"...' % network_pkl)
     device = torch.device('cuda')
