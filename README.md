@@ -1,4 +1,4 @@
-# Discord Bot Template for StyleGANV2
+# Discord Bot Template for StyleGAN
 Create a discord bot that generates images with StyleGAN2! All credit for this code goes to NVIDIA, this is just an example use case I recommend you check out if you're looking to extend your discord bot's abilities.
 
 ## Requirements
