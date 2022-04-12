@@ -1,5 +1,5 @@
-# Discord Bot Template for StyleGAN
-Create a discord bot that generates images with StyleGAN2! All credit for this code goes to NVIDIA, this is just an example use case I recommend you check out if you're looking to extend your discord bot's abilities.
+# Discord Bot Template for StyleGANv1,2,3
+Create a discord bot that generates images with StyleGAN! All credit for this code goes to NVIDIA, this is just an example use case I recommend you check out if you're looking to extend your discord bot's abilities.
 
 ## Requirements
 Essential requirements are Windows/Linux, CUDA Toolkit v11.0 or higher, and Python 3.7.
