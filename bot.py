@@ -54,14 +54,14 @@ token = ''
 bot = commands.Bot(command_prefix='!')
 
 @bot.command()
-async def generate(ctx, arg):
+async def generate(ctx, arg=None):
     
     await ctx.send("Got your message. Going to generate your image with STYLEGANv2, just give me a few moments.")
     
     #setting up variables for network
     seed = [random.randint(1, 1000)]
     outdir = os.getcwd() + "/out"
-    network_path = os.getcwd() + "./network-final.pkl" #you'll probably need/want to change this line to match your model.
+    network_path = os.getcwd() + "/network-final.pkl" #you'll probably need/want to change this line to match your model.
     
     #generating the image
     generate_images(network_pkl = network_path, seeds=seed, outdir=outdir)
